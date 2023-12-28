@@ -4,16 +4,37 @@ public static class CentralBank
 {
     public static string DisplayDenomination(long @base, long multiplier)
     {
-        throw new NotImplementedException($"Please implement the (static) CentralBank.DisplayDenomination() method");
+      try{
+        string result = checked(@base * multiplier).ToString();
+        return result;
+      }
+      catch(OverflowException){
+        return "*** Too Big ***";
+      }
     }
 
     public static string DisplayGDP(float @base, float multiplier)
     {
-        throw new NotImplementedException($"Please implement the (static) CentralBank.DisplayGDP() method");
+      try{
+        float result = checked(@base * multiplier);
+        if(result > float.MaxValue){
+          return "*** Too Big ***";
+        }
+        return result.ToString();
+      }
+      catch(OverflowException){
+        return "*** Too Big ***";
+      }
     }
 
     public static string DisplayChiefEconomistSalary(decimal salaryBase, decimal multiplier)
     {
-        throw new NotImplementedException($"Please implement the (static) CentralBank.DisplayChiefEconomistSalary() method");
+      try{
+        string result = checked(salaryBase * multiplier).ToString();
+        return result;
+      }
+      catch(OverflowException){
+        return "*** Much Too Big ***";
+      }
     }
 }
