@@ -18,3 +18,8 @@ The solutions in this repository are organized by the programming language of th
 
 To view a solution, navigate to the directory of the programming language and then to the directory of the specific exercise. Each solution includes the original problem statement, my solution, and any notes or reflections I made while solving the exercise.
 
+csharp: 27
+elixir: 10
+go: 15
+python: 7
+rust: 5
