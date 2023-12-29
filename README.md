@@ -1,7 +1,7 @@
 # My Exercism Solutions
 
 This repository contains my solutions to exercises from the Exercism platform. It serves as a reference and a showcase of my problem-solving skills in various programming languages.
-
+[My profile](https://exercism.org/profiles/carmosilva-vinicius)
 My main goal is to study C#, but I study some languages with different approaches to improme my range of knowledge:
 
 - C# as a language running on a Virtual Machine (VM)
