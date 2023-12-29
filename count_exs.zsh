@@ -5,6 +5,6 @@ for dir in */; do
     if [[ -e "./README.md" ]]; then
         sed -i "/^${dir%/}: /d" "./README.md"
     fi
-    echo "${dir%/}: $subdirs" >> "./README.md"
+    echo "${dir%/}: $subdirs\n" >> "./README.md"
 done
 
