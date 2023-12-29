@@ -6,7 +6,7 @@ My main goal is to study C#, but I study some languages with different approache
 
 - C# as a language running on a Virtual Machine (VM)
 - Elixir as a Functional language
-- Rust as a Compiled language
+- Go and Rust as a Compiled languages
 -  Python as an Interpreted language
 
    
