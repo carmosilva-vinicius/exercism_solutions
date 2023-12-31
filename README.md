@@ -22,7 +22,12 @@ To view a solution, navigate to the directory of the programming language and th
 
 ### Exercises count:
 
-csharp: 27
+
+
+
+
+
+csharp: 31
 
 elixir: 10
 
