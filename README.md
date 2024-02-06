@@ -32,7 +32,12 @@ To view a solution, navigate to the directory of the programming language and th
 
 
 
-csharp: 32
+
+
+
+
+
+csharp: 35
 
 elixir: 10
 
@@ -40,5 +45,7 @@ go: 15
 
 python: 7
 
-rust: 5
+rust: 6
+
+wasm: 1
 
